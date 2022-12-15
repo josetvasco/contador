@@ -7,9 +7,11 @@ export const redes = () => {
     const redFacebook = document.createElement('img');
     redFacebook.classList.add('red-facebook');
     redFacebook.src = imgFacebook;
+    
     const redInstagram = document.createElement('img');
     redInstagram.classList.add('red-instagram');
     redInstagram.src = imgInstagram;
+
     const redPinterest = document.createElement('img');
     redPinterest.classList.add('red-pinterest');
     redPinterest.src = imgPinterest;
