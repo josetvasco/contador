@@ -1,8 +1,8 @@
 {
   "name": "contador",
   "version": "1.0.0",
-  "description": "Sorint1 - Profundización Web",
-  "main": "index.js",
+  "description": "Sprint1 - Profundización Web",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --mode development",
@@ -23,7 +23,7 @@
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^8.0.4",
-    "css-loader": "^6.7.2",
+    "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "node-sass": "^8.0.0",
