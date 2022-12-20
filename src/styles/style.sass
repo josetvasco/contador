@@ -1,12 +1,15 @@
 $Very-dark-blue: hsl(235, 16%, 14%)
 $Soft-red: hsl(345, 95%, 68%)
 $Dark-desaturated-blue: hsl(236, 21%, 26%)
+$White: hsl(0, 0%, 100%)
 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap')
 *
     box-sizing: border-box
     margin: 0
     padding: 0
-    font-family: 'Rubik', sans-serif
+    font-family: 'Red Hat Text', sans-serif
+    color: $White
 
 body
     background-color: $Very-dark-blue
@@ -15,7 +18,7 @@ body
     height: 100vh
     display: flex
     flex-direction: column
-    justify-content: space-around
+    justify-content: space-between
     align-items: center
 
 .background-img
@@ -28,7 +31,10 @@ body
     display: flex
     align-items: center
 
-#clock
+    h1 
+        letter-spacing: 8px
+
+.div-clock
     height: 40vh
     display: flex
     align-items: center
@@ -54,24 +60,24 @@ body
             height: 50%
             border-radius: 10px
             background-color: $Dark-desaturated-blue
-            opacity: 0.4
-            border-bottom: 1px solid black
-
-    div
-        div
-        margin-top: 50px;
-        span
-            font-size: 1.3rem
-            text-align: center 
+            opacity: 0.35
+            border-bottom: 2.5px solid black 
     p
-        font-weight: 700
-        font-size: 7rem
+        font-size: 6rem
         width: 157px
         height: 157px
         color: $Soft-red
         display: flex
         justify-content: center
         align-items: center
+    
+    .subtitle-clock
+        display: flex
+        justify-content: center
+        margin-top: 20px
+        span
+            text-align: center
+            opacity: 0.5
 
 
 .section-redes
