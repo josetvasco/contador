@@ -48,7 +48,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
-            title: "myWepackServer"
+            title: "Contador Regresivo"
         })
     ]
 }
