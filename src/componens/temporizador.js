@@ -27,7 +27,7 @@ export const countdown = (deadline, elem) => {
         TEMP.innerHTML = ``
         TEMP.appendChild(createContador(t.remainDays, t.remainHours, t.remainMinutes, t.remainSeconds));
 
-    }, 10000)
+    }, 1000)
 };
 
 
