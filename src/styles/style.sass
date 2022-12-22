@@ -25,22 +25,30 @@ body
     bottom: 0
     position: absolute
     width: 100vw
+    height: 20%
 
 .section-titulo
     height: 20vh
+    width: 100vw
     display: flex
     align-items: center
+    justify-content: center
 
-    h1 
+    h1
         letter-spacing: 8px
+        text-align: center
 
 .div-clock
     height: 40vh
+    width: 100vw
     display: flex
+    justify-content: space-evenly
     align-items: center
     gap: 20px
 
     .div-number
+        width: 20vw
+        height: 12vh
         display: flex
         flex-direction: column
         justify-content: center
@@ -48,7 +56,7 @@ body
         position: relative
         background-color: $Dark-desaturated-blue
         border-radius: 10px
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
 
         p::before
             content: ""
@@ -61,16 +69,14 @@ body
             border-radius: 10px
             background-color: $Dark-desaturated-blue
             opacity: 0.35
-            border-bottom: 2.5px solid black 
+            border-bottom: 2.5px solid black
     p
-        font-size: 6rem
-        width: 157px
-        height: 157px
+        font-size: 2.5rem
         color: $Soft-red
         display: flex
         justify-content: center
         align-items: center
-    
+
     .subtitle-clock
         display: flex
         justify-content: center
@@ -78,12 +84,13 @@ body
         span
             text-align: center
             opacity: 0.5
-
+            font-size: 0.8rem
 
 .section-redes
     height: 20vh
     width: 20vw
     display: flex
+    gap: 20px
     justify-content: space-evenly
     align-items: center
 
@@ -95,3 +102,26 @@ body
     img:hover
         cursor: pointer
         filter: invert(56%) sepia(30%) saturate(4229%) hue-rotate(310deg) brightness(101%) contrast(97%)
+
+@media only screen and (min-width: 668px) and (max-width: 1024px)
+    .div-clock
+        .div-number
+            width: 20vw
+            height: 20vh
+        p
+            font-size: 5rem
+        .subtitle-clock
+            span
+                font-size: 1.2rem
+
+@media only screen and (min-width: 1024px)
+    .div-clock
+        width: 70vw
+        .div-number
+            width: 14vw
+            height: 20vh
+        p
+            font-size: 6rem
+        .subtitle-clock
+            span
+                font-size: 1.5rem
