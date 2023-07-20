@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/Danieltvasco5/contador/issues"
   },
-  "homepage": "https://josetvasco.github.io/contador",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
@@ -37,5 +36,6 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
-  }
+  },
+  "homepage": "https://josetvasco.github.io/contador"
 }
