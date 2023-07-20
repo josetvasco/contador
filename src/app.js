@@ -10,4 +10,4 @@ document.body.appendChild(backgroundImage(background))
 document.body.appendChild(titulo())
 document.body.appendChild(sectionContador())
 document.body.appendChild(redes());
-document.body.appendChild(countdown('Dec 31 2022 00:00:00', 'clock'))
+document.body.appendChild(countdown('Dec 31 2023 00:00:00', 'clock'))
